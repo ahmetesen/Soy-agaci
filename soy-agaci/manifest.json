@@ -1,0 +1,13 @@
+{
+  "name": "Soy Ağacı",
+  "description": "e-devlet üstünde çalışan alt üst soy bilgisi sorgulama için oluşturulmuş soy ağacı teması",
+  "version": "0.01",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://www.turkiye.gov.tr/nvi-alt-ust-soy-bilgisi-sorgulama","file:///C:/Users/Ahmet/Desktop/test.html"],
+    "js": ["arc.js","card.js","parent.js","main.js"]
+  }],
+
+  "permissions": ["https://www.turkiye.gov.tr/nvi-alt-ust-soy-bilgisi-sorgulama","tabs"]
+  
+}
